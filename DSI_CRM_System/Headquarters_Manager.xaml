@@ -1,0 +1,33 @@
+﻿<Window x:Class="DSI_CRM_System.Headquarters_Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSI_CRM_System"
+        mc:Ignorable="d"
+        Title="Headquarters Manager" Height="310.67" Width="460.821">
+    <Grid HorizontalAlignment="Left" Width="451">
+        <Button x:Name="btnAssignRebate" Content="Assign Rebate" HorizontalAlignment="Left" Margin="43,96,0,0" VerticalAlignment="Top" Width="137" Height="61" />
+        <Button x:Name="btnResetUnPw" Content="Username and Password&#xA;             Reset" HorizontalAlignment="Left" Margin="260,96,0,0" VerticalAlignment="Top" Width="137" Height="61" RenderTransformOrigin="0.498,0.964"/>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="451" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <Button x:Name="btnNext_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Height="45" RenderTransformOrigin="0.979,0.604">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images\icons8_Back_Arrow_48px_1.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Button x:Name="btnHome" Margin="50,2,358.6,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+            <Button.Background>
+                <ImageBrush ImageSource="Images\icons8_Home_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="406,2,-6,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36">
+            <Button.Background>
+                <ImageBrush ImageSource="Images\icons8_Shutdown_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblempName" HorizontalAlignment="Left" Margin="113,12,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Label x:Name="lblshowroom"  HorizontalAlignment="Left" Margin="283.339,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.747,-0.392" Height="26" Width="112"/>
+        <Button x:Name="btnDeliverReceivedItems" Content="Deliver Received Items" HorizontalAlignment="Left" Margin="43,181,0,0" VerticalAlignment="Top" Width="137" Height="61" />
+    </Grid>
+</Window>

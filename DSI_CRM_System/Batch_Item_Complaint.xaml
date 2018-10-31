@@ -1,0 +1,48 @@
+﻿<Window x:Class="DSI_CRM_System.Batch_Item_Complaint"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSI_CRM_System"
+        mc:Ignorable="d"
+        Title="Batch Item Complaint" Height="538" Width="400">
+    <Grid Margin="0,0,-0.4,8">
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <Button x:Name="btnNext_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44"  Height="45" RenderTransformOrigin="0.979,0.604">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/icons8_Back_Arrow_48px_1.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Button x:Name="btnHome" Margin="50,2,297,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="343,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Complaint ID" HorizontalAlignment="Left" Margin="75,59,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCompId" HorizontalAlignment="Left" Height="23" Margin="211,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Reference ID" HorizontalAlignment="Left" Margin="76,88,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRefid" HorizontalAlignment="Left" Height="23" Margin="211,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Complaint Item ID" HorizontalAlignment="Left" Margin="76,121,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCompItemId" HorizontalAlignment="Left" Height="23" Margin="211,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item Size" HorizontalAlignment="Left" Margin="75,155,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtItemSize" HorizontalAlignment="Left" Height="23" Margin="211,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item Defect" HorizontalAlignment="Left" Margin="76,184,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtstaffId_Copy5" HorizontalAlignment="Left" Height="23" Margin="211,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item Defect Image" HorizontalAlignment="Left" Margin="76,215,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="ImgDefect" HorizontalAlignment="Left" Height="100" Margin="211,224,0,0" VerticalAlignment="Top" Width="120" IsHitTestVisible="False" />
+        <Label Content="Item Remarks" HorizontalAlignment="Left" Margin="76,332,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtItemRemark" HorizontalAlignment="Left" Height="23" Margin="211,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item ID" HorizontalAlignment="Left" Margin="76,364,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtItemId" HorizontalAlignment="Left" Height="23" Margin="211,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="256,420,0,0" VerticalAlignment="Top" Width="75"/>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="-1,453,0,0"/>
+        <Label  x:Name="lblMessage" HorizontalAlignment="Left" Margin="37,466,0,0" VerticalAlignment="Top" Width="327" Height="18"/>
+
+    </Grid>
+</Window>

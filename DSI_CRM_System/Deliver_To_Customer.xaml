@@ -1,0 +1,44 @@
+﻿<Window x:Class="DSI_CRM_System.Deliver_To_Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSI_CRM_System"
+        mc:Ignorable="d"
+        Title="Deliver To Customer" Height="422.8" Width="400.2">
+    <Grid Margin="0,0,-0.4,7">
+        <Label Content="Deliver ID" HorizontalAlignment="Left" Margin="80,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDeliverId" HorizontalAlignment="Left" Height="23" Margin="214,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Complaint Item ID" HorizontalAlignment="Left" Margin="80,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCompItemId" HorizontalAlignment="Left" Height="23" Margin="214,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <Button x:Name="btnNext_Copy" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44"  Height="45" RenderTransformOrigin="0.979,0.604">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/icons8_Back_Arrow_48px_1.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Button x:Name="btnHome" Margin="50,2,297,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="343,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Item Status" HorizontalAlignment="Left" Margin="80,123,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtItemStatus" HorizontalAlignment="Left" Height="23" Margin="214,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item ID" HorizontalAlignment="Left" Margin="80,156,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtItemId" HorizontalAlignment="Left" Height="23" Margin="214,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="79,191,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datetimepicker_Date" HorizontalAlignment="Left" Margin="214,191,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="chkGoodCondition" Content="Item in good condition" HorizontalAlignment="Left" Margin="122,239,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkCusSatis" Content="Customer Satisffied" HorizontalAlignment="Left" Margin="122,263,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="259,305,0,0" VerticalAlignment="Top" Width="75"/>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="-1,339,0,0"/>
+        <Label  x:Name="lblMessage" HorizontalAlignment="Left" Margin="33,350,0,0" VerticalAlignment="Top" Width="327" Height="18"/>
+
+    </Grid>
+</Window>

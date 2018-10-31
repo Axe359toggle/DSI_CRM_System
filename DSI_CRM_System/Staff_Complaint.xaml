@@ -1,0 +1,38 @@
+﻿<Window x:Class="DSI_CRM_System.Staff_Complaint"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSI_CRM_System"
+        mc:Ignorable="d"
+        Title="Staff Complaint" Height="367.418" Width="400">
+    <Grid HorizontalAlignment="Left" Width="390" Margin="0,0,0,5.2">
+        <Label Content="Staff ID" HorizontalAlignment="Left" Margin="70,67,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtstaffId" HorizontalAlignment="Left" Height="23" Margin="205,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Staff Name" HorizontalAlignment="Left" Margin="70,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtstaffName" HorizontalAlignment="Left" Height="23" Margin="205,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Discription" HorizontalAlignment="Left" Margin="70,147,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDiscription" HorizontalAlignment="Left" Height="72" Margin="205,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="282,248,0,0" VerticalAlignment="Top" Width="75"/>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="0,0,-2,0">
+            <Button x:Name="btnBack" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Height="45" RenderTransformOrigin="0.979,0.604">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/icons8_Back_Arrow_48px_1.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Button x:Name="btnHome" Margin="50,2,297.8,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="343,4,-4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
+            </Button.Background>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="2,280,-4,0"/>
+        <Label  x:Name="lblMessage" HorizontalAlignment="Left" Margin="21,289,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.554,2.016" Width="351" Height="25"/>
+
+    </Grid>
+</Window>
