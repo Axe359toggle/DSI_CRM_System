@@ -22,7 +22,7 @@
         <Button x:Name="btnResetUnPw" Content="Username and Password&#xA;             Reset" HorizontalAlignment="Left" Margin="60,218,0,0" VerticalAlignment="Top" Width="137" Height="61" Click="btnResetUnPw_Click" RenderTransformOrigin="0.498,0.964"/>
         <Label x:Name="lblempName" HorizontalAlignment="Left" Margin="113,12,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
         <Label x:Name="lblshowroom"  HorizontalAlignment="Left" Margin="84.939,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.747,-0.392" Height="26" Width="112" Grid.Column="1"/>
-        <Button x:Name="btnMakeBatchComplaint" Content="Make Batch&#xA; Complaint&#xA;  " HorizontalAlignment="Left" Margin="59.939,88,0,0" VerticalAlignment="Top" Width="137" Height="61" Click="btnMakeBatchComplaint_Click" Grid.Column="1"/>
+        <Button FontSize="20" x:Name="btnMakeBatchComplaint" Content="Make Batch&#xA; Complaint&#xA;  " HorizontalAlignment="Left" Margin="59.939,88,0,0" VerticalAlignment="Top" Width="137" Height="61" Click="btnMakeBatchComplaint_Click" Grid.Column="1"/>
         <Button x:Name="btnHome" Margin="50,2,106.061,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
