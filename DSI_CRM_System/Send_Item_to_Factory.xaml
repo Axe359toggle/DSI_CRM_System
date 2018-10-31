@@ -18,12 +18,12 @@
         <TextBox x:Name="txtstaffId_Copy" HorizontalAlignment="Left" Height="23" Margin="183,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Complaint ID" HorizontalAlignment="Left" Margin="47,60,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtstaffId_Copy1" HorizontalAlignment="Left" Height="23" Margin="183,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnHome" Margin="50,2,301.4,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+        <Button x:Name="btnHome" Margin="50,2,301.4,0" VerticalAlignment="Top" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="343,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="343,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>

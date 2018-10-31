@@ -43,12 +43,12 @@
         <Label Content="Item ID" HorizontalAlignment="Left" Margin="44,506,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtItemId" HorizontalAlignment="Left" Height="23" Margin="179,506,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
         <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="125.4,550,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
-        <Button x:Name="btnHome" Margin="50,2,89.4,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+        <Button x:Name="btnHome" Margin="50,2,89.4,0" VerticalAlignment="Top" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="161.4,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.Column="1">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="161.4,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>
