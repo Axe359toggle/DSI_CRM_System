@@ -78,6 +78,7 @@
     <Compile Include="Choose_Factory.xaml.cs">
       <DependentUpon>Choose_Factory.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClassCollection.cs" />
     <Compile Include="Deliver_To_Customer.xaml.cs">
       <DependentUpon>Deliver_To_Customer.xaml</DependentUpon>
     </Compile>

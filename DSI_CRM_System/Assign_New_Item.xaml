@@ -40,12 +40,12 @@
         <Label Content="Item Brand" HorizontalAlignment="Left" Margin="57,550,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <TextBox x:Name="txtItemBrand" HorizontalAlignment="Left" Height="23" Margin="97.8,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
         <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="188.8,600,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
-        <Button x:Name="btnHome" Margin="50,2,3,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+        <Button x:Name="btnHome" Margin="50,2,3,0" VerticalAlignment="Top" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="247.8,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.Column="1">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="247.8,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>
