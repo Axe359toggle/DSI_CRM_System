@@ -49,9 +49,7 @@ namespace DSI_CRM_System
 
         private void btnCCBack_Click(object sender, RoutedEventArgs e)
         {
-            Showroom_Manager sm = new Showroom_Manager();
-            sm.Show();
-            this.Close();
+            Showroom_Manager.b1.backButton();
         }
 
         private void btnHome_Click(object sender, RoutedEventArgs e)
@@ -63,7 +61,9 @@ namespace DSI_CRM_System
 
         private void btnLogOut_Click(object sender, RoutedEventArgs e)
         {
-       
+
+            login l = new login();
+            l.Show();
         }
     }
 }

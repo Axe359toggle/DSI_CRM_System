@@ -19,6 +19,8 @@ namespace DSI_CRM_System
     /// </summary>
     public partial class Showroom_Manager : Window
     {
+        internal static BackButton b1 = new BackButton();
+
         public Showroom_Manager()
         {
             InitializeComponent();
@@ -27,9 +29,13 @@ namespace DSI_CRM_System
         
         private void btnMakeComplaintCustomer_Click(object sender, RoutedEventArgs e)
         {
+            b1.addWindowAndOpenNextWindow(this, new Customer_Complaint());
+
+            /*
             Customer_Complaint cc = new Customer_Complaint();
             cc.Show();
             this.Hide();
+            */
         }
 
         private void btnResetUnPw_Click(object sender, RoutedEventArgs e)
