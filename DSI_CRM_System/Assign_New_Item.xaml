@@ -45,7 +45,7 @@
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="247.8,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.Column="1">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="247.8,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>
