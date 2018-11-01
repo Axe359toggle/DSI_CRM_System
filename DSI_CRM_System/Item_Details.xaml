@@ -12,19 +12,19 @@
             <ColumnDefinition Width="181*"/>
         </Grid.ColumnDefinitions>
         <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="395" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="0,0,-1.4,0" Grid.ColumnSpan="2">
-            <Button x:Name="btnBack"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="44" Click="btnCCBack_Click" Height="45" RenderTransformOrigin="0.979,0.604" Margin="0,0,356.8,0">
+            <Button x:Name="btnBack"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="44" Height="45" RenderTransformOrigin="0.979,0.604" Margin="0,0,356.8,0">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/icons8_Back_Arrow_48px_1.png"/>
                 </Button.Background>
 
             </Button>
         </StackPanel>
-        <Button x:Name="btnHome" Margin="41,4,128.6,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+        <Button x:Name="btnHome" Margin="41,4,128.6,0" VerticalAlignment="Top" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="130.4,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.Column="1">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="130.4,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>

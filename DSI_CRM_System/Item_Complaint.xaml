@@ -32,12 +32,12 @@
         <CheckBox x:Name="chkItemRecevied" Content="Item Receved" Margin="128,276,166,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <StackPanel HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="392" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="0,340,0,0" Grid.ColumnSpan="2"/>
         <Label  x:Name="lblMessage" HorizontalAlignment="Left" Margin="42,355,0,0" VerticalAlignment="Top" Width="327" Height="18" Grid.ColumnSpan="2"/>
-        <Button x:Name="btnHome" Margin="50,2,47.8,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42">
+        <Button x:Name="btnHome" Margin="50,2,47.8,0" VerticalAlignment="Top" Height="42">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="203,4,-0.4,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.Column="1">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="203,4,-0.4,0" VerticalAlignment="Top" Width="51" Height="36" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>

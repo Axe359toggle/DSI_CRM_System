@@ -18,12 +18,12 @@
                 </Button.Background>
             </Button>
         </StackPanel>
-        <Button x:Name="btnHome" Margin="50,2,368.2,0" VerticalAlignment="Top" Click="btnHome_Click" Height="42" Grid.ColumnSpan="2">
+        <Button x:Name="btnHome" Margin="50,2,368.2,0" VerticalAlignment="Top" Height="42" Grid.ColumnSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Home_50px.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="332,8,0,0" VerticalAlignment="Top" Width="51" Click="btnLogOut_Click" Height="36" Grid.ColumnSpan="2">
+        <Button x:Name="btnLogOut" HorizontalAlignment="Left" Margin="332,8,0,0" VerticalAlignment="Top" Width="51" Height="36" Grid.ColumnSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="Images/icons8_Shutdown_50px.png"/>
             </Button.Background>

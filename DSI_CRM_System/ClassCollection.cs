@@ -22,9 +22,9 @@ namespace DSI_CRM_System
             previousWindows = new string[10];
         }
 
-        public BackButton(int mostNoOfWindows)
+        public BackButton(int maxNoOfWindows)
         {
-            previousWindows = new string[mostNoOfWindows];
+            previousWindows = new string[maxNoOfWindows];
         }
 
         public int getNoOfWindows()
@@ -46,7 +46,7 @@ namespace DSI_CRM_System
             return value;
         }
 
-        public void backButton(Window Window1)
+        public void goBack(Window Window1)
         {
 
             Window currentWindow = Window1;
@@ -65,7 +65,7 @@ namespace DSI_CRM_System
 
         }
 
-        public void backButton()
+        public void goBack()
         {
             if (noOfWindows > 0)
             {

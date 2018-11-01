@@ -49,7 +49,7 @@ namespace DSI_CRM_System
 
         private void btnCCBack_Click(object sender, RoutedEventArgs e)
         {
-            Showroom_Manager.b1.backButton();
+            Showroom_Manager.b1.goBack();
         }
 
         private void btnHome_Click(object sender, RoutedEventArgs e)
